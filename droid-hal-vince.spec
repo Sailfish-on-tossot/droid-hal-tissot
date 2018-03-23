@@ -1,5 +1,5 @@
 # These and other macros are documented in dhd/droid-hal-device.inc
-%define device mido
+%define device vince
 %define vendor xiaomi
 %define vendor_pretty Xiaomi
 %define device_pretty Redmi 5 Plus (vince)
