@@ -8,6 +8,14 @@
 %define straggler_files \
 /init.qcom.sh \
 /init.qcom.usb.sh \
+/bugreports \
+/d \
+/file_contexts.bin \
+/property_contexts \
+/sdcard \
+/selinux_version \
+/service_contexts \
+/vendor \
 %{nil}
 
 %define additional_post_scripts \
