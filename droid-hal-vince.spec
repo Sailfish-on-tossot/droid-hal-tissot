@@ -14,6 +14,7 @@
 /init.qcom.usb.sh \
 /bugreports \
 /d \
+/cache \
 /file_contexts.bin \
 /property_contexts \
 /sdcard \
