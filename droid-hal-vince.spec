@@ -12,16 +12,10 @@
 %define makefstab_skip_entries /dev/cpuctl
 
 %define straggler_files \
-/init.qcom.sh \
-/init.qcom.usb.sh \
 /bugreports \
 /d \
 /cache \
-/file_contexts.bin \
-/property_contexts \
 /sdcard \
-/selinux_version \
-/service_contexts \
 /vendor \
 %{nil}
 
