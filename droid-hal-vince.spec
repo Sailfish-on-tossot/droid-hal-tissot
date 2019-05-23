@@ -9,14 +9,11 @@
 # Entries migrated from the old rpm/droid-hal-hammerhead.spec
 %define enable_kernel_update 1
 
-%define makefstab_skip_entries /dev/cpuctl
-
 %define straggler_files \
 /bugreports \
 /d \
 /cache \
 /sdcard \
-/vendor \
 /nonplat_file_contexts\
 /nonplat_hwservice_contexts\
 /nonplat_property_contexts\
