@@ -10,21 +10,28 @@
 %define enable_kernel_update 1
 
 %define straggler_files \
-/bugreports \
-/d \
-/cache \
-/sdcard \
-/nonplat_file_contexts\
-/nonplat_hwservice_contexts\
-/nonplat_property_contexts\
-/nonplat_seapp_contexts\
-/nonplat_service_contexts\
-/plat_file_contexts\
-/plat_hwservice_contexts\
-/plat_property_contexts\
-/plat_seapp_contexts\
-/plat_service_contexts\
-/vndservice_contexts\
+    /bugreports \
+    /d \
+    /cache \
+    /sdcard \
+    /dsp \
+    /firmware \
+    /persist \
+    /product \
+    /vendor_file_contexts \
+    /vendor_hwservice_contexts \
+    /vendor_property_contexts \
+    /vendor_seapp_contexts \
+    /vendor_service_contexts \
+    /vndservice_contexts \
+    /plat_file_contexts \
+    /plat_hwservice_contexts \
+    /plat_property_contexts \
+    /plat_seapp_contexts \
+    /plat_service_contexts \
+    /sepolicy \
+    /odm \
+    /verity_key \
 %{nil}
 
 %define additional_post_scripts \
