@@ -1,8 +1,8 @@
 # These and other macros are documented in dhd/droid-hal-device.inc
-%define device vince
+%define device tissot
 %define vendor xiaomi
 %define vendor_pretty Xiaomi
-%define device_pretty Redmi 5 Plus (vince)
+%define device_pretty Mi A1 (tissot)
 %define installable_zip 1
 %define droid_target_aarch64 1
 
